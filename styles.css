@@ -112,14 +112,11 @@ body {
 
 .marquee-container {
   position: absolute;
-  top: 100%;
-  left: -50%;
-  width: 200%;
+  top: 110%;
+  left: 50%;
   text-align: center;
   color: #ffffff;
-  padding: 20px;
-  white-space: nowrap;
-  overflow: hidden;
+  transform: translate(-50%, -50%);
 }
 
 .marquee {
@@ -306,26 +303,21 @@ body {
 	font-size: 8px;
 }
 .hintro {
-	font-size: 16px;
+	font-size: 12px;
 	text-align: center;	
 }
 
 .marquee-container {
   position: absolute;
-  top: 100%;
-  width: 200%;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   color: #ffffff;
-  padding: 20px;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .marquee {
-  animation: bounce 10s linear infinite;
-  white-space: nowrap;
-  display: inline-block;
-  transform-origin: center;
+  animation: bounce 240s linear infinite;
 }
 
 @keyframes bounce {
