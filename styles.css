@@ -77,8 +77,8 @@ body, html {
 }
 
 .background {
-  width: 300%;
-  height: 300%;
+  width: 200%;
+  height: 200%;
   background-image: url('Cosmos.jpg');
   background-size: cover;
   background-repeat: no-repeat;
