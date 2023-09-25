@@ -69,7 +69,7 @@
   /* Add more mobile-specific styles as needed */
 }
 
-body, {
+body {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -77,8 +77,8 @@ body, {
 }
 
 .background {
-  width: 200%;
-  height: 200%;
+  width: 300%;
+  height: 300%;
   background-image: url('Cosmos.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -155,8 +155,7 @@ body, {
   /* Add CSS for scrollable container */
     .scrollable-content {
       max-height: 300px; /* Set the maximum height to enable scrolling */
-      max-width: 3840px;
-	    
+	  max-width: 3840px;
       overflow-y: scroll; /* Add a vertical scroll bar */
       scrollbar-width: none; /* Customize the scroll bar width */
       scrollbar-color: transparent transparent; /* Hide the scroll bar color */
@@ -211,10 +210,11 @@ body, {
         }
 @media (max-width: 767px) {
 	
-* {
-  font-family: "Comic Sans MS", sans-serif;
+html {
+overflow: hidden;
 }
-body, html {
+
+body {
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -239,9 +239,9 @@ body, html {
  /* Add CSS for scrollable container */
     .scrollable-content {
       max-height: 200px; /* Set the maximum height to enable scrolling */
+      max-width: 500px;
       min-height: 150px;
-	  max-width: 500px;
-	  min-width: 300px;
+      min-width: 300px;
       overflow-y: scroll; /* Add a vertical scroll bar */
       scrollbar-width: none; /* Customize the scroll bar width */
       scrollbar-color: transparent transparent; /* Hide the scroll bar color */
@@ -269,9 +269,9 @@ body, html {
   font-size: 12px; /* Adjust the font size as needed */
   padding: 20px; /* Add some padding for spacing */
   max-height: 200px; /* Set the maximum height to enable scrolling */
-  min-height: 150px;
   max-width: 500px;
-  min-width:300px;
+  min-height: 150px;
+  min-width: 300px;
   overflow-y: scroll; /* Add a vertical scroll bar */
   scrollbar-width: none; /* Customize the scroll bar width */
   scrollbar-color: transparent transparent; /* Hide the scroll bar color */
