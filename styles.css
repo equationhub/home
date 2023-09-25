@@ -303,7 +303,7 @@ body {
 	font-size: 12px;
 }
 .quote {
-	font-size: 6px;
+	font-size: 8px;
 }
 .hintro {
 	font-size: 16px;
@@ -313,7 +313,6 @@ body {
 .marquee-container {
   position: absolute;
   top: 100%;
-  left: -50%;
   width: 200%;
   text-align: center;
   color: #ffffff;
