@@ -239,6 +239,7 @@ body {
  /* Add CSS for scrollable container */
     .scrollable-content {
       max-height: 200px; /* Set the maximum height to enable scrolling */
+      min-height: 150px;
 	  max-width: 500px;
 	  min-width: 300px;
       overflow-y: scroll; /* Add a vertical scroll bar */
@@ -268,6 +269,7 @@ body {
   font-size: 12px; /* Adjust the font size as needed */
   padding: 20px; /* Add some padding for spacing */
   max-height: 200px; /* Set the maximum height to enable scrolling */
+  min-height: 150px;
   max-width: 500px;
   min-width:300px;
   overflow-y: scroll; /* Add a vertical scroll bar */
