@@ -155,7 +155,8 @@ body, html {
   /* Add CSS for scrollable container */
     .scrollable-content {
       max-height: 300px; /* Set the maximum height to enable scrolling */
-	  max-width: 3840px;
+      max-width: 3840px;
+	    
       overflow-y: scroll; /* Add a vertical scroll bar */
       scrollbar-width: none; /* Customize the scroll bar width */
       scrollbar-color: transparent transparent; /* Hide the scroll bar color */
@@ -209,7 +210,10 @@ body, html {
 	text-align: justify; /* Justify the text within the paragraph */
         }
 @media (max-width: 767px) {
-
+	
+* {
+  font-family: "Comic Sans MS", sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
@@ -236,6 +240,7 @@ body {
     .scrollable-content {
       max-height: 200px; /* Set the maximum height to enable scrolling */
 	  max-width: 500px;
+	  min-width: 300px;
       overflow-y: scroll; /* Add a vertical scroll bar */
       scrollbar-width: none; /* Customize the scroll bar width */
       scrollbar-color: transparent transparent; /* Hide the scroll bar color */
@@ -264,6 +269,7 @@ body {
   padding: 20px; /* Add some padding for spacing */
   max-height: 200px; /* Set the maximum height to enable scrolling */
   max-width: 500px;
+  min-width:300px;
   overflow-y: scroll; /* Add a vertical scroll bar */
   scrollbar-width: none; /* Customize the scroll bar width */
   scrollbar-color: transparent transparent; /* Hide the scroll bar color */
