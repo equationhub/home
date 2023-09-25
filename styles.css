@@ -323,7 +323,7 @@ body {
 }
 
 .marquee {
-  animation: bounce 60s linear infinite;
+  animation: bounce 100s linear infinite;
   white-space: nowrap;
   display: inline-block;
   transform-origin: center;
