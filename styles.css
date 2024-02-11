@@ -24,7 +24,7 @@
   max-height: 200px; /* Set the max height you want */
   overflow-y: auto; /* Enable vertical scrolling */
   transition: opacity 2s; /* Delay the scrollbar disappearance */
-  
+
   /* Position the dropdown content right below the button */
   top: calc(100% + 5px); /* Adjusted to position below the button with a small gap */
   left: 50%;
@@ -112,11 +112,14 @@ body {
 
 .marquee-container {
   position: absolute;
-  top: 110%;
-  left: 50%;
+  top: 100%;
+  left: -50%;
+  width: 200%;
   text-align: center;
   color: #ffffff;
-  transform: translate(-50%, -50%);
+  padding: 20px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .marquee {
@@ -185,7 +188,7 @@ body {
   scrollbar-width: none; /* Customize the scroll bar width */
   scrollbar-color: transparent transparent; /* Hide the scroll bar color */
   background: rgba(0, 0, 0, 0.5);
-  padding-left: 25px;
+  padding-left: 7px;
   text-align: center; /* Justify the text within the container */
 }
 
@@ -206,10 +209,6 @@ body {
 	text-align: justify; /* Justify the text within the paragraph */
         }
 @media (max-width: 767px) {
-	
-html {
-overflow: hidden;
-}
 
 body {
   margin: 0;
@@ -236,9 +235,7 @@ body {
  /* Add CSS for scrollable container */
     .scrollable-content {
       max-height: 200px; /* Set the maximum height to enable scrolling */
-      max-width: 500px;
-      min-height: 150px;
-      min-width: 300px;
+	  max-width: 500px;
       overflow-y: scroll; /* Add a vertical scroll bar */
       scrollbar-width: none; /* Customize the scroll bar width */
       scrollbar-color: transparent transparent; /* Hide the scroll bar color */
@@ -267,13 +264,11 @@ body {
   padding: 20px; /* Add some padding for spacing */
   max-height: 200px; /* Set the maximum height to enable scrolling */
   max-width: 500px;
-  min-height: 150px;
-  min-width: 300px;
   overflow-y: scroll; /* Add a vertical scroll bar */
   scrollbar-width: none; /* Customize the scroll bar width */
   scrollbar-color: transparent transparent; /* Hide the scroll bar color */
   background: rgba(0, 0, 0, 0.5);
-  padding-left: 25px;
+  padding-left: 7px;
   text-align: center; /* Justify the text within the container */
 }
 
@@ -300,24 +295,30 @@ body {
 	font-size: 12px;
 }
 .quote {
-	font-size: 8px;
+	font-size: 12px;
 }
 .hintro {
-	font-size: 12px;
+	font-size: 16px;
 	text-align: center;	
 }
 
 .marquee-container {
   position: absolute;
-  top: 110%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 100%;
+  left: -50%;
+  width: 200%;
   text-align: center;
   color: #ffffff;
+  padding: 20px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .marquee {
-  animation: bounce 240s linear infinite;
+  animation: bounce 500s linear infinite;
+  white-space: nowrap;
+  display: inline-block;
+  transform-origin: center;
 }
 
 @keyframes bounce {
