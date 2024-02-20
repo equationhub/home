@@ -65,9 +65,7 @@
     top: calc(100% + 2px);
 	font-size: 14px;
   }
-	.background {
-  overflow: hidden;
-}
+
   /* Add more mobile-specific styles as needed */
 }
 
@@ -163,7 +161,6 @@ body {
       scrollbar-color: transparent transparent; /* Hide the scroll bar color */
 	  background: rgba(0, 0, 0, 0.5);
 	  padding-left: 7px;
-	  padding-right: 7px;
       text-align: center;/* Justify the text within the container */
     }
 
