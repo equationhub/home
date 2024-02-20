@@ -80,7 +80,7 @@ body {
   width: 300%;
   height: 300%;
   background-image: url('Cosmos.jpg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
