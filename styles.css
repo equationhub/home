@@ -65,12 +65,8 @@
     top: calc(100% + 2px);
 	font-size: 14px;
   }
-	
-body {
-  margin: 0;
-  padding: 0;
+	.background {
   overflow: hidden;
-  position: relative;
 }
   /* Add more mobile-specific styles as needed */
 }
