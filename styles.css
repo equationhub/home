@@ -72,18 +72,20 @@
 body {
   margin: 0;
   padding: 0;
+  position: relative;
   overflow: hidden;
-  height: 100%;
+  body-size: contain;
 }
 
 .background {
   width: 300%;
   height: 300%;
-  background-image: url('Cosmos.jpg');
   background-size: cover;
+  overflow: hidden;
+  background-image: url('Cosmos.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
+  position: fixed;;
   top: -100%;
   left: -100%;
   rotate: 70deg;
@@ -214,22 +216,24 @@ body {
 body {
   margin: 0;
   padding: 0;
+  position: relative;
   overflow: hidden;
-  height: 100%;
+  body-size: contain;
 }
 
 .background {
   width: 300%;
   height: 300%;
-  background-image: url('Cosmos.jpg');
   background-size: cover;
+  overflow: hidden;
+  background-image: url('Cosmos.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
+  position: fixed;
   top: -100%;
   left: -100%;
-  animation: rotateBackground 720s linear infinite;
   rotate: 70deg;
+  animation: rotateBackground 720s linear infinite;
   transform-origin: center center;
 }
 
