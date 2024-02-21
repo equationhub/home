@@ -73,7 +73,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: relative;
+  height: 100%;
 }
 
 .background {
@@ -89,7 +89,6 @@ body {
   rotate: 70deg;
   animation: rotateBackground 720s linear infinite;
   transform-origin: center center;
-  overflow: hidden;
 }
 
 @keyframes rotateBackground {
@@ -210,13 +209,13 @@ body {
 .description {
 	text-align: justify; /* Justify the text within the paragraph */
         }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
 body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: relative;
+  height: 100%;
 }
 
 .background {
@@ -232,7 +231,6 @@ body {
   animation: rotateBackground 720s linear infinite;
   rotate: 70deg;
   transform-origin: center center;
-  overflow: hidden;
 }
 
  /* Add CSS for scrollable container */
