@@ -1,4 +1,7 @@
 /* Styles for PC version (unchanged) */
+*{
+  overflow: hidden;
+}
 .dropbtn {
   background-color: #7b1113;
   color: white;
@@ -72,7 +75,7 @@
 body {
   margin: 0;
   padding: 0;
-  position: static;
+  position: relative;
   overflow: hidden;
   body-size: contain;
 }
@@ -216,7 +219,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  position: static;
+  position: relative;
   overflow: hidden;
   body-size: contain;
 }
