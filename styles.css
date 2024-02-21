@@ -82,7 +82,7 @@ body {
   height: 300%;
   background-size: cover;
   overflow: hidden;
-  background-image: url('Cosmos.jpeg');
+  background-image: url('Cosmos.jpg');
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;;
@@ -226,7 +226,7 @@ body {
   height: 300%;
   background-size: cover;
   overflow: hidden;
-  background-image: url('Cosmos.jpeg');
+  background-image: url('Cosmos.jpg');
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;
